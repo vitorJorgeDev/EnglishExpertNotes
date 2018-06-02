@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "617184380319",
+    "firebase_url": "https://englishexpertnotes.firebaseio.com",
+    "project_id": "englishexpertnotes",
+    "storage_bucket": "englishexpertnotes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617184380319:android:4d8ea3f96d421be5",
+        "android_client_info": {
+          "package_name": "com.vitorjorge.englishexpertnotes.englishexpertnotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "617184380319-cuapq7k3et0rseuq9seaaciomtjhh1nq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vitorjorge.englishexpertnotes.englishexpertnotes",
+            "certificate_hash": "1e7f46df5d5433813a4a8a892f9a42e4aecb17f7"
+          }
+        },
+        {
+          "client_id": "617184380319-0jpnevhqrh089a1a5d0blpajfdoh53pp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJrZaQxMdrJj5ce8IQOMHLB5GbxDmpNNA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "617184380319-0jpnevhqrh089a1a5d0blpajfdoh53pp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

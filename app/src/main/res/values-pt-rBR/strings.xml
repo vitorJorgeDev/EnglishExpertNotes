@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EnglishExpertNotes</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="facebook_app_id">342756596251036</string>
+    <string name="fb_login_protocol_scheme">fb342756596251036</string>
+    <string name="title_activity_navigation_acitivity">NavigationAcitivity</string>
+
+
+    <string name="title_home">Lista</string>
+    <string name="title_sair">Sair</string>
+    <string name="title_dashboard">Cadastrar</string>
+    <string name="title_notifications">Sobre</string>
+    <string name="title_map">Mapa</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="title_activity_update_data">UpdateData</string>
+    <string name="title_activity_maps">Map</string>
+
+
+    <string name="hint_editText_update">Atualize sua anotação</string>
+    <string name="title_updatebutton_update">ATUALIZAR</string>
+    <string name="title_deletebutton_update">DELETAR</string>
+    <string name="title_sharebutton_update">COMPARTILHAR</string>
+    <string name="title_cancelbutton_update">CANCELAR</string>
+    <string name="hint_edittext_cadastro">Digite sua anotação</string>
+    <string name="title_savebutton_cadastro">Adicionar anotação</string>
+    <string name="title_text_cadastro">Insira suas anotações</string>
+    <string name="title_time_sobre">Time:</string>
+    <string name="title_text_developer_sobre">Desenvolvedor Android: Vitor Cesar Hideo Jorge</string>
+    <string name="title_text_version_cadastro">Versão:</string>
+    <string name="title_objective_cadastro">Objetivo:</string>
+    <string name="title_objdescription_cadastro">Projeto desenvolvido para conclusão do curso de Desenvolvimento android da turma 14 MOB - FIAP Paulista</string>
+    <string name="title_questions_cadastro">Perguntas?</string>
+    <string name="title_callus_cadastro">Ligue para nós!</string>
+    <string name="title_message_lista">Opsss!!! Nenhum item cadastrado.</string>
+    <string name="description_message_lista">Lista vazia!!! Para cadastrar entre no menu Cadastrar e cadastre.</string>
+    <string name="title_message_update">Deseja realmente excluir o item: </string>
+    <string name="message_toast_update"> excluido com sucesso</string>
+    <string name="title_cancel_button_update">Cancelar</string>
+    <string name="title_ok_button_update">OK</string>
+    <string name="title_delete_button_update">Excluir</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+
+    <string name="title_signup">Cadatrar</string>
+    <string name="title_password_signup">senha</string>
+    <string name="title_email_signup">email</string>
+    <string name="title_checkpassword_singup">verificar senha</string>
+    <string name="title_save_button_signup">SALVAR</string>
+    <string name="title_signup_main">Não tem registro ainda? Click aqui para se cadastrar!</string>
+    <string name="message_password_different_signup">Senhas diferentes!</string>
+    <string name="message_password_less">Senha minima com 6 letras</string>
+    <string name="message_password_is_empty_sigup">Senha ou verficar senha está vazia!</string>
+    <string name="message_email_wrong_format_signup">Formato do email errado!</string>
+    <string name="message_email_empty_signup">Email está vazio</string>
+    <string name="message_signup_successfully">Cadastro realizado com sucesso</string>
+    <string name="message_signup_error">Opss!! Erro ao cadstrar, verifique se o email já não está cadastrado!</string>
+    <string name="title_button_login_main">LOGIN</string>
+    <string name="hint_edittext_email_main">email</string>
+    <string name="hint_edittext_password_main">senha</string>
+    <string name="message_mainglogin_error">Falha ao autenticar</string>
+
+    <string name="title_alert_button_main">Alerta</string>
+    <string name="title_message_main">Goople play não está instalado no seu telefone, instale e tentei novamente!!!! </string>
+</resources>

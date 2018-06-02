@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">EnglishExpertNotes</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="facebook_app_id">342756596251036</string>
+    <string name="fb_login_protocol_scheme">fb342756596251036</string>
+    <string name="title_activity_navigation_acitivity">NavigationAcitivity</string>
+    <string name="title_home">List</string>
+    <string name="title_sair">Exit</string>
+    <string name="title_dashboard">Add</string>
+    <string name="title_notifications">About</string>
+    <string name="title_map">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="title_activity_update_data">UpdateData</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- news-->
+    <string name="hint_editText_update">Update your notes</string>
+    <string name="title_updatebutton_update">UPDATE</string>
+    <string name="title_deletebutton_update">DELETE</string>
+    <string name="title_sharebutton_update">SHARE</string>
+    <string name="title_cancelbutton_update">CANCEL</string>
+    <string name="hint_edittext_cadastro">Enter your notes</string>
+    <string name="title_savebutton_cadastro">Add Notes</string>
+    <string name="title_text_cadastro">Insert your notes</string>
+    <string name="title_time_sobre">Time:</string>
+    <string name="title_text_developer_sobre">Android Developer: Vitor Cesar Hideo Jorge</string>
+    <string name="title_text_version_cadastro">Version:</string>
+    <string name="title_objective_cadastro">Goal:</string>
+    <string name="title_objdescription_cadastro">Project developed for completion of the course of Android development of the group 14 MOB - Fiap Paulista</string>
+    <string name="title_questions_cadastro">Questions?</string>
+    <string name="title_callus_cadastro">Call US</string>
+    <string name="title_message_lista">Upsss!!! No item add.</string>
+    <string name="description_message_lista">Empty list!!! To add a new note go to menu Add.</string>
+    <string name="title_message_update">Do you realy want to remove this item: </string>
+    <string name="message_toast_update"> item removed successfully</string>
+    <string name="title_cancel_button_update">Cancel</string>
+    <string name="title_ok_button_update">OK</string>
+    <string name="title_delete_button_update">Remove</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="title_signup">SignUp</string>
+    <string name="title_password_signup">password</string>
+    <string name="title_email_signup">email</string>
+    <string name="title_checkpassword_singup">check password</string>
+    <string name="title_save_button_signup">SAVE</string>
+    <string name="title_signup_main">Still not registered? Click here to signup! </string>
+    <string name="message_password_different_signup">Passwords are different!</string>
+    <string name="message_password_less">Password less than 6 words</string>
+    <string name="message_password_is_empty_sigup">Password or confirm passaword is empty!</string>
+    <string name="message_email_wrong_format_signup">Email format is wrong!</string>
+    <string name="message_email_empty_signup">Email is empty</string>
+    <string name="message_signup_successfully">Signup successfull</string>
+    <string name="message_signup_error">Uppsss! Signup error, check if this email have already registered!</string>
+    <string name="title_button_login_main">LOGIN</string>
+    <string name="hint_edittext_email_main">email</string>
+    <string name="hint_edittext_password_main">password</string>
+    <string name="message_mainglogin_error">Authentication failed.</string>
+
+    <string name="title_alert_button_main">Alert</string>
+    <string name="title_message_main">Google play is not installed, please install google play and try agrain!!!! </string>
+</resources>
