@@ -6,7 +6,6 @@ import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -45,7 +44,6 @@ class ListaFragment : Fragment()  {
         for(i in notes){
             val note = i.name
             notesItems.add(note)
-            Log.d("QUANTIDADE", note )
         }
 
         recyclerView.layoutManager = LinearLayoutManager(activity)
@@ -66,8 +64,6 @@ class ListaFragment : Fragment()  {
 
 
     fun removeItem(item: Int){
-
         NotesDAO.delete(notesDAO.get(item))
-        Log.d("QUANTIDADE", "Voltou" )
     }
 }

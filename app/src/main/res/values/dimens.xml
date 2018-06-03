@@ -5,4 +5,21 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="singup_title_top">16dp</dimen>
     <dimen name="signup_text_size">20dp</dimen>
+    <dimen name="image_width_login">0dp</dimen>
+    <dimen name="image_height_login">453dp</dimen>
+    <dimen name="layout_width_login">0dp</dimen>
+    <dimen name="layout_height_login">223dp</dimen>
+    <dimen name="maginbottom_layout_login">32dp</dimen>
+    <dimen name="marginend_layout_login">8dp</dimen>
+    <dimen name="margin_layout_login">8dp</dimen>
+    <dimen name="magin_medium_layout">16dp</dimen>
+    <dimen name="textview_text_size_noterow">17dp</dimen>
+    <dimen name="text_width_noterow">0dp</dimen>
+    <dimen name="line_width_noterow">1dp</dimen>
+    <dimen name="none_layout">0dp</dimen>
+    <dimen name="text_size_fragment_lista">17dp</dimen>
+    <dimen name="text_version_height_about">17dp</dimen>
+    <dimen name="large_layout">32dp</dimen>
+    <dimen name="image_width_about">100dp</dimen>
+    <dimen name="image_height_about">100dp</dimen>
 </resources>

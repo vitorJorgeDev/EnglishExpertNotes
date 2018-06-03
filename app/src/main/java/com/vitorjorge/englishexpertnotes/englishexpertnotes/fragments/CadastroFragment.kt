@@ -3,7 +3,6 @@ package com.vitorjorge.englishexpertnotes.englishexpertnotes.fragments
 
 import android.os.Bundle
 import android.support.v4.app.Fragment
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -33,7 +32,6 @@ class CadastroFragment : Fragment(), View.OnClickListener {
     private var inventoryItems: ArrayList<String>? = null
     private var inventoryItemsAdapter: ArrayAdapter<*>? = null
 
-
     override fun onClick(v: View?) {
         when (v?.id) {
             R.id.buttonSaveInventory -> {
@@ -57,25 +55,17 @@ class CadastroFragment : Fragment(), View.OnClickListener {
     }
 
     private fun saveInventory() {
-        //Getting name from editText
         val name = _editTextInventoryName!!.text.toString().trim { it <= ' ' }
         _editTextInventoryName?.setText("")
 
-        //Checking if name is blank
         if (name.equals("", ignoreCase = true)) {
-           // Toast.makeText(this, "Please enter a name", Toast.LENGTH_LONG).show()
             return
         }
 
-        //If name is not blank creating a new Inventory object
         val inventory =  Notes()
-        //Adding the given name to inventory name
         inventory.name = name
-        //Saving name to sqlite database
         inventory.save()
         inventoryItems!!.add(name)
-
-        Log.d("TAG", "Funcionou")
 
     }
 

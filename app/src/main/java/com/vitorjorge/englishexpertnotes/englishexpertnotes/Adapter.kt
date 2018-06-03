@@ -11,9 +11,6 @@ import android.view.ViewGroup
 import com.vitorjorge.englishexpertnotes.englishexpertnotes.fragments.ListaFragment
 import kotlinx.android.synthetic.main.note_row.view.*
 
-
-
-
 class Adapter(val list: ArrayList<String>, val context: Context): RecyclerView.Adapter<CustomViewHolder>(){
 
     var localList = list

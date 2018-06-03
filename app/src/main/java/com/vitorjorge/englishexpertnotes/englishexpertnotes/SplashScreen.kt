@@ -19,7 +19,6 @@ class SplashScreen : AppCompatActivity() {
     private var mAuth: FirebaseAuth? = null
     private var currentToken: Boolean = false
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash_screen)
@@ -29,16 +28,7 @@ class SplashScreen : AppCompatActivity() {
         mAuth = FirebaseAuth.getInstance();
         currentToken = AccessToken.isCurrentAccessTokenActive()
 
-        //
-//
-//        val scal = ScaleAnimation(1f, 0f, 1f, 0f, Animation.RELATIVE_TO_SELF, 0.5.toFloat(), Animation.RELATIVE_TO_SELF, 0.5.toFloat())
-//        scal.duration = 5000
-//        scal.fillAfter = true
-//
-//        (findViewById(R.id.ivLogo) as ImageView).animation = scal
-           carregar()
-
-        //
+        carregar()
 
     }
 

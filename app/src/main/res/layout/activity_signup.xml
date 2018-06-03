@@ -48,9 +48,5 @@
         android:id="@+id/buttonsave"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/title_save_button_signup"
-
-        />
-
-
+        android:text="@string/title_save_button_signup" />
 </android.support.v7.widget.LinearLayoutCompat>

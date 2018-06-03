@@ -7,16 +7,16 @@
 
     <TextView
         android:id="@+id/textView_notes"
-        android:layout_width="0dp"
+        android:layout_width="@dimen/text_width_noterow"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginBottom="@dimen/magin_medium_layout"
+        android:layout_marginEnd="@dimen/margin_layout_login"
+        android:layout_marginLeft="@dimen/margin_layout_login"
+        android:layout_marginRight="@dimen/margin_layout_login"
+        android:layout_marginStart="@dimen/margin_layout_login"
+        android:layout_marginTop="@dimen/magin_medium_layout"
         android:text="TextView"
-        android:textSize="17dp"
+        android:textSize="@dimen/textview_text_size_noterow"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -25,13 +25,11 @@
     <View
         android:id="@+id/view1"
         android:layout_width="match_parent"
-        android:layout_height="1dp"
+        android:layout_height="@dimen/line_width_noterow"
         android:background="@color/divider"
         tools:layout_editor_absoluteX="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
+        android:layout_marginLeft="@dimen/margin_layout_login"
+        android:layout_marginRight="@dimen/margin_layout_login"
         tools:layout_editor_absoluteY="54dp" />
-
-
 </android.support.constraint.ConstraintLayout>

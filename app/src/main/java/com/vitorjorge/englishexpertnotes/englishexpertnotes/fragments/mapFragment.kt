@@ -33,10 +33,6 @@ class mapFragment : Fragment(), OnMapReadyCallback {
     private lateinit var mMap: GoogleMap
     var mMapView: MapView? = null
     var mView: View? = null
-    val names = arrayOf("Vitor", "Gabrielle", "Bruno", "Jorge", "Joao", "Lucas")
-    val latitudes: Array<Double>? = null
-    val longitudes: Array<Double>? = null
-
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
@@ -87,7 +83,6 @@ class mapFragment : Fragment(), OnMapReadyCallback {
         val Jorge = LatLng(-23.562636, -46.654263)
 
         mMap.addMarker(MarkerOptions().position(Jorge).title("Jorge"))
-        //mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney))
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(Jorge, 14.7f))
 
     }

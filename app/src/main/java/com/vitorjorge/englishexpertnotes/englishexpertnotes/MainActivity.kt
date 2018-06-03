@@ -65,7 +65,6 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-
         buttonsignup.setOnClickListener {
 
             if (googleStoreChecked){
@@ -75,8 +74,6 @@ class MainActivity : AppCompatActivity() {
             }else{
                 showAlert()
             }
-
-
         }
 
         // Login Firebase AUTH
