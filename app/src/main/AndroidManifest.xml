@@ -62,7 +62,8 @@
         <activity
             android:name=".NavigationActivity"
             android:label="@string/title_activity_navigation" />
-        <activity android:name=".UpDate" />
+        <activity android:name=".UpDate"
+                    android:label="@string/title_activity_update"/>
 
         <service android:name=".MyFirebaseMessagingService">
             <intent-filter>
@@ -80,7 +81,8 @@
             android:enabled="true"
             android:exported="false"></provider>
 
-        <activity android:name=".SignupActivity"></activity>
+        <activity android:name=".SignupActivity"
+                    android:label="@string/title_activity_signup" ></activity>
     </application>
 
 </manifest>

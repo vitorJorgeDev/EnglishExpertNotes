@@ -15,6 +15,7 @@ import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
 import com.vitorjorge.englishexpertnotes.englishexpertnotes.R
+import java.util.*
 
 
 // TODO: Rename parameter arguments, choose names that match
@@ -32,16 +33,14 @@ class mapFragment : Fragment(), OnMapReadyCallback {
     private lateinit var mMap: GoogleMap
     var mMapView: MapView? = null
     var mView: View? = null
+    val names = arrayOf("Vitor", "Gabrielle", "Bruno", "Jorge", "Joao", "Lucas")
+    val latitudes: Array<Double>? = null
+    val longitudes: Array<Double>? = null
+
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         mView = inflater.inflate(R.layout.fragment_map, container, false)
-
-
-
-
-
-
 
         return mView
     }
@@ -57,8 +56,6 @@ class mapFragment : Fragment(), OnMapReadyCallback {
         }
 
         val btn = view?.findViewById<Button>(R.id.buttonFindFriends)
-
-
 
         btn?.setOnClickListener {
 
@@ -91,9 +88,12 @@ class mapFragment : Fragment(), OnMapReadyCallback {
 
         mMap.addMarker(MarkerOptions().position(Jorge).title("Jorge"))
         //mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney))
-        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(Jorge, 14.5f))
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(Jorge, 14.7f))
 
     }
+
+    fun ClosedRange<Int>.random() =
+            Random().nextInt(endInclusive - start) +  start
 }
 
 

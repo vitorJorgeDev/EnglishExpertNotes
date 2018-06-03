@@ -63,4 +63,6 @@
     <string name="title_alert_button_main">Alert</string>
     <string name="title_message_main">Google play is not installed, please install google play and try agrain!!!! </string>
     <string name="find_friends">Find out friends</string>
+    <string name="title_activity_signup">SIGNUP</string>
+    <string name="title_activity_update">UPDATE</string>
 </resources>
